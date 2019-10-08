@@ -6,7 +6,9 @@ on:
       - master
     tags:        
       - "*"
-  pull_request: {}
+  pull_request:
+    branches:
+      - "*"
 
 jobs:
   lint:
